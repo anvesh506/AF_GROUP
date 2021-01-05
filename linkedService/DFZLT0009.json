@@ -1,0 +1,16 @@
+{
+	"name": "DFZLT0009",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DFZLT-00009\\SQLEXPRESS;initial catalog=sourceDB;user id=anvesh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1YWMzZWRkZi1iZDc5LTQ2M2YtYjA1NS02YWIzY2FkZGJiY2YiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "sqlserver-onpremise",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
