@@ -1,0 +1,16 @@
+{
+	"name": "azuredb_linkserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DFZLT-00009\\SQLEXPRESS;initial catalog=SourceDB;user id=anvesh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwMTY5MzA5Yi05ZDk2LTQxODYtOGY0Ni0zN2Q4MzMyNDJlZjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "sqlserver-onpremise",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
