@@ -95,7 +95,7 @@
 											"type": "Expression"
 										},
 										"schema_name": {
-											"value": "@item().schema_name",
+											"value": "@item().table_schema",
 											"type": "Expression"
 										}
 									}
