@@ -1,0 +1,20 @@
+{
+	"name": "azuredb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azuredb_linkserver",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"table_name": {
+				"type": "string"
+			},
+			"schema_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
