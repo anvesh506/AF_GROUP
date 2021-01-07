@@ -19,6 +19,7 @@
 					"value": "@dataset().filename",
 					"type": "Expression"
 				},
+				"folderPath": "sourcedb",
 				"container": "dfzlz"
 			},
 			"columnDelimiter": ",",
